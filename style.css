@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+
+html {
+  background: #333;
+}
+
+a {
+  color: #db880d;
+}
+  
+  #drum-machine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    background-color: #037b59;
+  }
+  
+  #display {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    height: 20rem;
+    width: 15rem;
+    border: #db880d solid;
+    background: #333;
+  }
+  
+  .drum-pad-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #52ab98;
+    height: 14rem;
+    width: 14rem;
+    padding: 0.1rem;
+    margin: 0.1rem;
+    background: #333;
+  }
+  
+  .drum-pad {
+    color: #ffffff;
+    margin: 0.5rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    border: none;
+    background: #1D1E22;
+  }
+  
+  .drum-pad:hover {
+    background: #db880d;
+  }
+  
+  .drum-pad:active {
+    position: relative;
+    top: 2px;
+    left: 1px;
+  }
+  
+  .key-title {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+.dmtitle {
+  margin-bottom: .75rem;
+}
+  
+  .key-name {
+    padding: 1.5rem;
+    height: 1rem;
+    width: 8rem;
+    font-weight: bold;
+    background: #db880d;
+    color: #ffffff;
+    border-radius: 0.5rem;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    * {
+      font-size: 20px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    * {
+      font-size: 24px;
+    }
+  }
